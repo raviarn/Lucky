@@ -1,0 +1,119 @@
+page-home {
+
+    .background{
+        background-color: #7FDC72;
+    }
+
+    .icn{
+        color: #ffffff;
+        font-size: 60px;
+        bottom: 1em;
+        position: absolute;
+    }
+    ion-img {
+        background: transparent;
+    }
+    .messgBujji{
+        background-color: orange;
+        width: fit-content;
+        height: auto;
+        padding: 15px;
+        // border: 2px solid white;
+        color: white;
+        border-radius: 0px 20px 20px 25px;
+        margin-top: 15px;
+    }
+    .card-md {
+        border-radius: 10px;
+    }
+    .item-md ion-avatar[item-start], .item-md ion-thumbnail[item-start] {
+        margin: 8px 10px 8px 0;
+    }
+    .messageCard{
+     
+        background-color: transparent;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        height: auto;
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+        // margin-top: 15px;
+    }
+
+    .suggesList{
+        // background-color: #FF0000;
+        background-color: transparent;
+        bottom: -1em;
+        max-height: 50px;
+        position: absolute;
+        bottom: 5em;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .col {
+        color: #2A2A32;
+        padding: 10px;
+        position: relative;
+        width: 100%;
+        border-radius: 10px;
+        /* margin: 5px; */
+        margin: 5px 15px 5px 15px;
+        background-color: white;
+        min-height: 1px;
+        -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+
+    .item-md ion-avatar {
+        min-width: 40px;
+        min-height: 0px;    
+        padding: 5px;
+        color: #2A2A32;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid white;
+    }
+
+    .suggesitem{
+        // background-color: darkorange;
+        background-color: transparent;
+    }
+
+    .messgUser{
+        background-color: transparent;
+        width: 100%;
+        height: auto;
+        color: white;
+        margin-top: 15px;
+    }
+    .list-md[no-lines] .item-block, .list-md[no-lines] ion-item-options, .list-md[no-lines] .item .item-inner {
+        background-color: transparent;
+        border-width: 0;
+        color: #ffffff;
+    }   
+    .messages_list {
+        max-height: 60%;
+        margin-top: 20%;
+        overflow-y: scroll;
+    }
+    .label-md {
+        margin: 0px;
+    }
+    .item-md {
+        padding-left: 5px;
+    }
+    .mesg {
+        border-radius: 10px;
+        background-color: transparent;
+        border: 2px solid orange;
+    }
+}

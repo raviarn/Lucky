@@ -1,0 +1,35 @@
+<!--
+  Generated template for the MapsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+</ion-header>
+<ion-content>
+  <div #map id="map"></div>
+  <div>
+    <ion-list no-lines *ngFor="let item of itemsList" style="background-color: #27272F" >
+      <ion-item text-wrap (click)="showRoute(item)">
+        <ion-card class="card">
+          <button ion-item style="color: orange;">
+            <ion-icon name="md-navigate" item-right></ion-icon>
+            <h2 style="color: white;"><b>{{item.name}}</b><br>
+              {{item.address}}
+            </h2>
+          </button>
+        </ion-card>
+        <!-- <ion-card padding style="color: white;">
+            <ion-buttons end>
+                <button ion-button icon-only>
+                  <ion-icon name="bicycle"></ion-icon>
+                </button>
+              </ion-buttons>
+            <b>{{item.name}}</b>
+            {{item.address}}
+        </ion-card> -->
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

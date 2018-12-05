@@ -1,0 +1,67 @@
+page-maps {
+
+    #map {
+        height: 30%;
+      }
+
+      .label-md {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .card-header-md {
+        font-size: 1.6rem;
+        color: #EC5D62;
+        padding: 16px 16px 16px 16px;
+    }
+
+    .list-md {
+        margin: -1px 0 1px;
+    }
+
+    .card-content-md {
+        padding: 0px 0px;
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+
+    .item-md {
+        padding-left: 0px;
+        background-color: transparent;
+    }
+    .card-md {
+        margin: 5px -5px 5px 5px;
+        border-radius: 2px;
+        font-size: 1.4rem;
+        width: 100%;
+        background: #3A3A44;
+    }
+
+    .item-md p {
+        color: #FFFFFF;
+        margin: 0px 10px 2px;
+    }
+
+    icon[item-right], .item-md ion-icon[item-start], .item-md ion-icon[item-end] {
+        margin-left: 0;
+        margin-top: 11px;
+        color: orange;
+        margin-bottom: 10px;
+    }
+
+    .item-md h2 {
+        margin: 2px 0;
+        font-size: 1.6rem;
+        padding: 10px;
+        font-weight: normal;
+    }
+
+    page-maps .card-content-md {
+        padding: 0px 0px 10px 10px;
+    }
+
+    .list-md > .item-block:last-child ion-label, .list-md > .item-block:last-child .item-inner, .list-md > .item-wrapper:last-child ion-label, .list-md > .item-wrapper:last-child .item-inner {
+        border-bottom: 0;
+        background-color: #27272F;
+    }
+
+}

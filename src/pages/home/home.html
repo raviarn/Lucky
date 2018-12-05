@@ -1,0 +1,40 @@
+<ion-header>
+</ion-header>
+
+<ion-content style="background-color: #2A2A32;">  
+  <ion-list class="messages_list" no-lines id="messagesContent">
+    <button ion-item *ngFor="let item of trailMessg">
+      <div *ngIf="item.said == 'bujji'">  
+        <ion-item text-wrap>         
+  
+          <!-- <ion-avatar item-start>
+            <img src="assets/imgs/assisicon.png">
+          </ion-avatar> -->
+  
+          <p class="messgBujji"><b>{{ item.message }}</b></p>
+        </ion-item>
+      </div>
+      <div *ngIf="item.said == 'user'">  
+        <ion-item text-wrap>
+          <p class="messgUser" style="text-align: center;margin: auto;font-size: 18px;">{{ item.message }}</p>
+        </ion-item>
+      </div>
+      <div *ngIf="item.said == 'card'">  
+        <ion-item text-wrap>
+          <ion-card class="mesg">
+            <ion-card-content>
+              <p class="messageCard">{{ item.message }}</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-item>
+      </div>
+    </button> 
+  </ion-list>
+  <div style="text-align: center">
+    <div class = "row" style="background-color: transparent;bottom: -1em;max-height: 50px;position: absolute;bottom: 5em;left: 0;right: 0;margin: auto;">
+      <div class = "col"><span text-center>{{this.suggesionone}}</span></div>
+      <div class = "col"><span text-center>{{this.suggesiontwo}}</span></div>
+    </div>  
+    <ion-img style="width: 40px;height: 45px;position: absolute;bottom: 1em;left: 0;right: 0;margin: auto;" src='assets/imgs/speaker.png' (click)="startListening()"></ion-img>
+  </div>
+</ion-content>

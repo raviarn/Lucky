@@ -1,0 +1,8 @@
+{
+  "name": "bujji",
+  "app_id": "efd93ca2",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
